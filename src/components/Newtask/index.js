@@ -43,6 +43,7 @@ const Newtask = ({addTodo}) => {
                         // required 
                         placeholder="add new task..."/>
                 </div>
+                
                 <div className="form-group">
                     <div className="description">
                         <b>Description</b>
