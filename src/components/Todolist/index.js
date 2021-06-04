@@ -81,8 +81,6 @@ const Todolist = () => {
             item.date = dateUpdate
             item.piority = piorityUpdate
             item.showDetail = showDetailUpdate
-
-
         }
         return{
             updateTodo

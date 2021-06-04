@@ -79,11 +79,8 @@ const Detailtable = (props) => {
                                         value={item.name}  
                                     >
                                         {item.name}
-                                        
                                     </option>
-                                )
-                                    
-                                )
+                                ))
                             }
                         </select>  
                     </div>                     
