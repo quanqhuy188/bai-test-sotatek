@@ -1,0 +1,55 @@
+.Bulkaction{
+    position: fixed;
+    bottom: 0;
+    max-width: 480px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #dfdfdf;
+    border:2px solid #000000;
+    border-radius:0;
+    padding: 15px 10px;
+
+
+}
+.Bulkaction-box{
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-box{
+    display:flex;
+    align-items:center;
+  }
+  .done{
+    margin: 0 5px;
+  }
+  .done button{
+    border:0;
+    padding:8px 17px;
+    border-radius:5px;
+    background:#00b9ce;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .remove{
+    margin: 0 5px;
+  }
+  .remove button{
+    cursor: pointer;
+    padding:8px 17px;
+    color:white;
+    border:0;
+    border-radius:5px;
+    background:#da4a54;
+  }
+  .check-title{
+    display:flex;
+    align-items:center;
+  }
+  .check-title .title{
+    margin-left:10px;
+  }

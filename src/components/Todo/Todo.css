@@ -1,0 +1,61 @@
+
+  .todo-box .Todo .todo-item{
+    margin-top:20px;
+    border:2px solid #000000;
+    border-radius:0;
+    padding:20px 5px;
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .checkbox{
+    color:#45a049;
+    cursor: pointer;
+  }
+  .button-box{
+    display:flex;
+    align-items:center;
+  }
+  .detail{
+    margin: 0 3px;
+  }
+  @Media screen and (max-width:350px){
+    .button-box{
+        display:block;
+        text-align:center;
+      }
+      .detail{
+          margin-bottom:5px;
+      }
+      .done{
+        margin-bottom:5px;
+    }     
+  }
+
+  .detail button{
+    border:0;
+    padding:8px 17px;
+    border-radius:5px;
+    background:#00b9ce;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .remove{
+    margin: 0 3px;
+  }
+  .remove button{
+    padding:8px 17px;
+    color:white;
+    border:0;
+    border-radius:5px;
+    background:#da4a54;
+  }
+  .check-title{
+    display:flex;
+    align-items:center;
+  }
+  .check-title .title{
+    margin-left:7px;
+  }
